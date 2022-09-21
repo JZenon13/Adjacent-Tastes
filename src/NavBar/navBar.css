@@ -1,0 +1,29 @@
+header {
+  width: 100%;
+  display: flexbox;
+  justify-content: flex-start;
+  align-items: flex-end;
+  border-bottom: 1px solid #ccc;
+  background: rgb(14, 12, 57);
+  background: rgb(255, 255, 255);
+  background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(0, 0, 0) 100%);
+}
+
+header a,
+header button {
+  font-size: 1rem;
+  display: inline-block;
+  background-color: rgba(128, 128, 128, 0.314);
+  border-radius: 10px;
+  margin: 1rem;
+  padding: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  color: #bc0505;
+}
+
+.siteTitle {
+  font-size: 35px;
+  text-align: center;
+  color: #bc0505;
+}

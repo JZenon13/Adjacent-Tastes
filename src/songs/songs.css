@@ -1,0 +1,167 @@
+.songPage {
+  background-color: rgb(20, 19, 19);
+  height: 100%;
+  width: 100%;
+  margin-top: -1.5%;
+  color: white;
+  font-size: 20px;
+}
+.songCard {
+  block-size: fit-content;
+  text-align: center;
+  border: 2px solid #bc0505;
+  border-radius: 10px;
+  padding: 10px;
+}
+a:link {
+  text-decoration: none;
+  color: white;
+}
+.songImg {
+  max-width: 15vw;
+  max-height: 25vw;
+}
+
+.songInfo {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.allSongs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+}
+
+.addImage {
+  max-width: 4vw;
+  max-height: 2vw;
+  margin-left: 90%;
+  cursor: pointer;
+}
+
+.addSongButton {
+  font-size: 1rem;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.681);
+  border: 1px solid rgb(14, 12, 57);
+  border-radius: 10px;
+  margin: 1rem;
+  padding: 1rem;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  color: #bc0505;
+}
+
+body.active-modal {
+  overflow-y: hidden;
+}
+
+.btn-modal {
+  padding: 10px 20px;
+  display: block;
+  margin: 100px auto 0;
+  font-size: 18px;
+}
+
+.modal,
+.overlay {
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.overlay {
+  background: rgba(139, 36, 36, 0.8);
+}
+.modal-content {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 3;
+  background: rgb(14, 12, 57);
+  background: rgb(255, 255, 255);
+  background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(0, 0, 0) 100%);
+  padding: 14px 28px;
+  border-radius: 10px;
+  max-width: max-content;
+  min-width: min-content;
+  color: rgb(165, 48, 48);
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 7px;
+  border: #bc0505;
+  border-radius: 5px;
+}
+
+.songTable {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 100%;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+}
+
+.songTable thead tr th {
+  background-color: #bc0505;
+  font-weight: bold;
+  color: white;
+}
+
+.songTable th td {
+  padding: 50px 50px;
+  color: white;
+}
+
+.songTable tbody tr {
+  border-bottom: 1px solid grey;
+}
+
+.songProfileImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.songTableDeleteBtn {
+  width: 30%;
+  border-radius: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.songTableEditBtn {
+  width: 30%;
+  border-radius: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.clickableLink {
+  cursor: pointer;
+}
+
+.songEdit {
+  border-radius: 10px;
+  width: 90%;
+  height: 25px;
+}
+.songEditBtn {
+  width: 20%;
+  border-radius: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
