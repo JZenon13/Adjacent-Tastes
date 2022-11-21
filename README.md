@@ -1,7 +1,7 @@
 # Adjacent Tastes
 
 Add your favorite songs, artists, and videos all in one convenient app.
-This particular front-end is built using React and is attached to a back-end using Express.js (in a seperate repo titled 'Adjacent-Tastest-back-end')
+This particular front-end is built using React and is attached to a back-end using Express.js (in a seperate repo titled 'Adjacent-Tastes-back-end')
 
 ## Available Scripts
 
